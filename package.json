@@ -1,0 +1,16 @@
+{
+  "name": "sih26013-land-harmonizer-mvp-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "mock-server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix mock-server\" \"npm run dev --prefix frontend\"",
+    "install-all": "npm install --workspace=frontend && npm install --workspace=mock-server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

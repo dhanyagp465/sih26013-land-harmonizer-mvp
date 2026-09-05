@@ -1,0 +1,5 @@
+[
+  {"parcel_id":"P-001","location":"DemoVillage","tehsil":"DemoTehsil","conflict_type":"area_mismatch","sources":["revenue","survey"],"status":"Pending"},
+  {"parcel_id":"P-002","location":"DemoVillage","tehsil":"DemoTehsil","conflict_type":"owner_mismatch","sources":["municipal","survey"],"status":"Pending"},
+  {"parcel_id":"P-004","location":"DemoVillage","tehsil":"DemoTehsil","conflict_type":"area_mismatch","sources":["revenue","municipal"],"status":"Reviewed"}
+]

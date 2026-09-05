@@ -1,0 +1,22 @@
+{ "type": "FeatureCollection", "features": [
+  {
+    "type":"Feature",
+    "geometry":{"type":"Polygon","coordinates":[[[77.59465,12.97161],[77.59482,12.97161],[77.59482,12.97181],[77.59465,12.97181],[77.59465,12.97161]]]},
+    "properties":{"parcel_id":"P-001","owner_name":"A. Kumar","area_sqm":452,"village":"DemoVillage","tehsil":"DemoTehsil","sources":["revenue","survey"],"conflict":true}
+  },
+  {
+    "type":"Feature",
+    "geometry":{"type":"Polygon","coordinates":[[[77.59559,12.97189],[77.59579,12.97189],[77.59579,12.97209],[77.59559,12.97209],[77.59559,12.97189]]]},
+    "properties":{"parcel_id":"P-002","owner_name":"B. Singh","area_sqm":599,"village":"DemoVillage","tehsil":"DemoTehsil","sources":["municipal","survey"],"conflict":true}
+  },
+  {
+    "type":"Feature",
+    "geometry":{"type":"Polygon","coordinates":[[[77.59661,12.97101],[77.59681,12.97101],[77.59681,12.97121],[77.59661,12.97121],[77.59661,12.97101]]]},
+    "properties":{"parcel_id":"P-003","owner_name":"C. Rao","area_sqm":350,"village":"DemoVillage","tehsil":"DemoTehsil","sources":["revenue","municipal"],"conflict":false}
+  },
+  {
+    "type":"Feature",
+    "geometry":{"type":"Polygon","coordinates":[[[77.5976,12.9716],[77.5978,12.9716],[77.5978,12.9718],[77.5976,12.9718],[77.5976,12.9716]]]},
+    "properties":{"parcel_id":"P-004","owner_name":"D. Patel","area_sqm":502,"village":"DemoVillage","tehsil":"DemoTehsil","sources":["revenue","municipal"],"conflict":true}
+  }
+]}
